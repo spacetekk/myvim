@@ -1,8 +1,7 @@
 " Vim filetype plugin file
 " Language:	python
 " Maintainer: space::tekk
-" Last Changed: 2011-03-03
-" URL:		http://spacetekk.ru/
+" Last Changed: 2013-11-29
 
 
 " Make sure the continuation lines below do not cause problems in
@@ -19,9 +18,8 @@ autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,
 
 setlocal include=\\\(from\\\|import\\\)\\\?
 
-setlocal dictionary+=$HOME/.vim/dic/python/words.txt
+setlocal dictionary+=$HOME/.vim/bundle/vimfiles/dic/python/keywords.txt
 
-" imap <nul> <c-r>=RopeCodeAssistInsertMode()<cr>
 imap <buffer> <c-i> <c-r>=RopeCodeAssistInsertMode()<cr>
 
 python << EOF

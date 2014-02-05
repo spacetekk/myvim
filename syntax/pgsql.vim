@@ -1,12 +1,13 @@
 " Vim syntax file
 " Language:     pgsql
 " Maintainer:   Devrim GUNDUZ <devrim@PostgreSQL.org>
-" Last Change:  $Date: 2010/03/11 21:43:23 $
+" Last Change:  $Date: 2014/01/22 19:00:00 $
 " Filenames:    *.pgsql *.plpgsql
 " URL:		http://www.gunduz.org/postgresql/pgsql.vim
 " Note:		The definitions below are for PostgreSQL 8.4, some versions may differ.
 " Changelog:	Thanks to Todd A. Cook for the updates
 " Changelog:	Thanks a lot to David Fetter for the big update set, that came as of Mar 11, 2010.
+" Changelog:    
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
@@ -28,20 +29,22 @@ syn keyword pgsqlKeyword	 cast cascade character check column columns constraint
 syn keyword pgsqlKeyword	 database domain databases default delete distinct drop declare deallocate desc
 syn keyword pgsqlKeyword	 deferrable deferred defaults do diagnostics
 syn keyword pgsqlKeyword	 explain end exists execute exclusion found exception except each exit
-syn keyword pgsqlKeyword	 function foreign from full fetch force for
+syn keyword pgsqlKeyword	 function foreign from full fetch force for foreach
 syn keyword pgsqlKeyword	 group grant global get
 syn keyword pgsqlKeyword	 having 
 syn keyword pgsqlKeyword	 index into immutable inner initially immediate inherits instead insert in if
+syn keyword pgsqlKeyword	 isnull
 syn keyword pgsqlKeyword	 join
 syn keyword pgsqlKeyword	 key 
 syn keyword pgsqlKeyword	 language lock local limit left load loop
 syn keyword pgsqlKeyword	 max min move match
-syn keyword pgsqlKeyword	 notify no new null next
+syn keyword pgsqlKeyword	 notify no new null next notnull
 syn keyword pgsqlKeyword	 or operator outer order old on out open
 syn keyword pgsqlKeyword	 prepare plpgsql primary password primary privilege procedure partial prepared
 syn keyword pgsqlKeyword	 partition preserve perform
+syn keyword pgsqlKeyword	 query
 syn keyword pgsqlKeyword	 role replace reindex release reset revoke rollback references row rows rule restrict
-syn keyword pgsqlKeyword	 returns return 
+syn keyword pgsqlKeyword	 returns return raise
 syn keyword pgsqlKeyword	 select set strict schema sequence savepoint simple system stable setof
 syn keyword pgsqlKeyword	 truncate to tranaction trigger table tables temp temporary tablespace type
 syn keyword pgsqlKeyword	 update unique unlisten using

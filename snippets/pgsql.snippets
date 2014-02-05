@@ -1,0 +1,29 @@
+snippet pgfun
+	drop function if exists ${1:function} (
+		${2:arguments}
+	);
+	create function $1 (
+		$2
+	)
+	returns
+		${3:returns}
+	as $$
+	declare
+		${4:variables}
+	begin
+		${0:body}
+	end;
+	$$ language plpgsql;
+
+snippet pgsqlfun
+	drop function if exists ${1:function} (
+		${2:arguments}
+	);
+	create function $1 (
+		$2
+	)
+	as $$
+		${0:body}
+	end;
+	$$ language sql;
+
