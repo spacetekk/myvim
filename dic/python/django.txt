@@ -399,6 +399,7 @@ only
 order_by
 order_with_respect_to
 ordering
+paginate_by
 patterns
 permalink
 permissions

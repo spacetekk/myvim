@@ -23,7 +23,7 @@ syn case ignore
 " General keywords which don't fall into other categories
 syn keyword pgsqlKeyword	 abort alter aggregate analyze and as alias add
 syn keyword pgsqlKeyword	 begin by before
-syn keyword pgsqlKeyword	 conversion cascade current_date current_time current_timestamp class close
+syn keyword pgsqlKeyword	 conversion cascade current_date current_time current_timestamp class close continue
 syn keyword pgsqlKeyword	 cluster checkpoint check comment
 syn keyword pgsqlKeyword	 cast cascade character check column columns constraint create copy
 syn keyword pgsqlKeyword	 database domain databases default delete distinct drop declare deallocate desc
@@ -38,13 +38,13 @@ syn keyword pgsqlKeyword	 join
 syn keyword pgsqlKeyword	 key 
 syn keyword pgsqlKeyword	 language lock local limit left load loop
 syn keyword pgsqlKeyword	 max min move match
-syn keyword pgsqlKeyword	 notify no new null next notnull
+syn keyword pgsqlKeyword	 notify no new null next notnull notice
 syn keyword pgsqlKeyword	 or operator outer order old on out open
 syn keyword pgsqlKeyword	 prepare plpgsql primary password primary privilege procedure partial prepared
 syn keyword pgsqlKeyword	 partition preserve perform
 syn keyword pgsqlKeyword	 query
 syn keyword pgsqlKeyword	 role replace reindex release reset revoke rollback references row rows rule restrict
-syn keyword pgsqlKeyword	 returns return raise
+syn keyword pgsqlKeyword	 returns returning return raise
 syn keyword pgsqlKeyword	 select set strict schema sequence savepoint simple system stable setof
 syn keyword pgsqlKeyword	 truncate to tranaction trigger table tables temp temporary tablespace type
 syn keyword pgsqlKeyword	 update unique unlisten using
@@ -127,7 +127,7 @@ syn region pgsqlOperator	 start="coalesce(" end=")" contains=ALL
 syn region pgsqlOperator	 start="interval(" end=")" contains=ALL
 
 " Control flow functions
-syn keyword pgsqlFlow		 case when then else end
+syn keyword pgsqlFlow		 case when then else elsif end
 syn region pgsqlFlow		 start="ifnull("   end=")"  contains=ALL
 syn region pgsqlFlow		 start="nullif("   end=")"  contains=ALL
 syn region pgsqlFlow		 start="if("	   end=")"  contains=ALL

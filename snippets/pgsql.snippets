@@ -1,29 +1,18 @@
-snippet pgfun
-	drop function if exists ${1:function} (
-		${2:arguments}
-	);
-	create function $1 (
-		$2
-	)
-	returns
-		${3:returns}
+snippet pgfn
+	create or replace function ${1:func_name} (${2:args}) returns ${3:void}
 	as $$
-	declare
-		${4:variables}
+	${4:declare}
 	begin
-		${0:body}
+		${0}
 	end;
 	$$ language plpgsql;
-
-snippet pgsqlfun
+snippet pgsqlfn
+	create or replace function ${1:func_name} (${2}) returns ${3:void}
+	as $$
+		${0}
+	end;
+	$$ language sql;
+snippet pgdropfn
 	drop function if exists ${1:function} (
 		${2:arguments}
 	);
-	create function $1 (
-		$2
-	)
-	as $$
-		${0:body}
-	end;
-	$$ language sql;
-
