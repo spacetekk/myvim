@@ -81,7 +81,7 @@ syn keyword pgsqlType		 anynonarray any aclitem bytea bit
 syn keyword pgsqlType		 boolean bigint box cidr cstring char
 syn keyword pgsqlType		 character cid circle double date
 syn keyword pgsqlType		 gtsvector inet interval internal
-syn keyword pgsqlType		 int2vector integer line lseg
+syn keyword pgsqlType		 int2vector integer json jsonb line lseg
 syn keyword pgsqlType		 language_handler macaddr money numeric
 syn keyword pgsqlType		 name opaque oidvector oid polygon point
 syn keyword pgsqlType		 path period precision regclass real
