@@ -6,6 +6,13 @@ snippet pgfn
 		${0}
 	end;
 	$$ language plpgsql;
+snippet pgdo
+	do $$
+	${4:declare}
+	begin
+		${0}
+	end;
+	$$ language plpgsql;
 snippet pgsqlfn
 	create or replace function ${1:func_name} (${2}) returns ${3:void}
 	as $$
