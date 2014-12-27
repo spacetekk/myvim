@@ -1,1 +1,1 @@
-setlocal fo+aw
+setlocal fo+=aw

@@ -1,4 +1,4 @@
-snippet pgfn
+snippet fun
 	create or replace function ${1:func_name} (${2:args}) returns ${3:void}
 	as $$
 	${4:declare}
@@ -6,20 +6,20 @@ snippet pgfn
 		${0}
 	end;
 	$$ language plpgsql;
-snippet pgdo
+snippet do
 	do $$
 	${4:declare}
 	begin
 		${0}
 	end;
 	$$ language plpgsql;
-snippet pgsqlfn
+snippet funsql
 	create or replace function ${1:func_name} (${2}) returns ${3:void}
 	as $$
 		${0}
 	end;
 	$$ language sql;
-snippet pgdropfn
+snippet dropfun
 	drop function if exists ${1:function} (
 		${2:arguments}
 	);
