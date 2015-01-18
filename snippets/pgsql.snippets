@@ -1,6 +1,5 @@
 snippet fun
-	create or replace function ${1:func_name} (${2:args}) returns ${3:void}
-	as $$
+	create or replace function ${1:func_name} (${2:args}) returns ${3:void} as $$
 	${4:declare}
 	begin
 		${0}
@@ -14,8 +13,7 @@ snippet do
 	end;
 	$$ language plpgsql;
 snippet funsql
-	create or replace function ${1:func_name} (${2}) returns ${3:void}
-	as $$
+	create or replace function ${1:func_name} (${2}) returns ${3:void} as $$
 		${0}
 	end;
 	$$ language sql;
