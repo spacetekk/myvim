@@ -78,16 +78,17 @@ syn sync ccomment pgsqlComment
 
 syn keyword pgsqlType		 anyarray anyelement abstime anyenum
 syn keyword pgsqlType		 anynonarray any aclitem bytea bit
-syn keyword pgsqlType		 boolean bigint box cidr cstring char
-syn keyword pgsqlType		 character cid circle double date
-syn keyword pgsqlType		 gtsvector inet interval internal
-syn keyword pgsqlType		 int2vector integer json jsonb line lseg
-syn keyword pgsqlType		 language_handler macaddr money numeric
-syn keyword pgsqlType		 name opaque oidvector oid polygon point
-syn keyword pgsqlType		 path period precision regclass real
-syn keyword pgsqlType		 regtype refcursor regoperator reltime
-syn keyword pgsqlType		 record regproc regdictionary regoper
-syn keyword pgsqlType		 regprocedure regconfig smgr smallint
+syn keyword pgsqlType		 boolean bigint bigserial box cidr
+syn keyword pgsqlType		 cstring char character cid circle
+syn keyword pgsqlType		 double date gtsvector inet interval
+syn keyword pgsqlType		 internal int2vector integer json jsonb
+syn keyword pgsqlType		 line lseg language_handler macaddr
+syn keyword pgsqlType		 money numeric name opaque oidvector
+syn keyword pgsqlType		 oid polygon point path period precision
+syn keyword pgsqlType		 regclass real regtype refcursor
+syn keyword pgsqlType		 regoperator reltime record regproc
+syn keyword pgsqlType		 regdictionary regoper regprocedure
+syn keyword pgsqlType		 regconfig smgr smallint serial
 syn keyword pgsqlType		 time tsquery tinterval trigger tid
 syn keyword pgsqlType		 timestamp text tsvector txid_snapshot
 syn keyword pgsqlType		 unknown uuid void varying with without
