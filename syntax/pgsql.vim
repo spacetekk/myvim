@@ -76,7 +76,7 @@ syn sync ccomment pgsqlComment
 
 " Column types
 
-syn keyword pgsqlType		 anyarray anyelement abstime anyenum
+syn keyword pgsqlType		 array anyarray anyelement abstime anyenum
 syn keyword pgsqlType		 anynonarray any aclitem bytea bit
 syn keyword pgsqlType		 boolean bigint bigserial box cidr
 syn keyword pgsqlType		 cstring char character cid circle
