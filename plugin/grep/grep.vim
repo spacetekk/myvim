@@ -19,10 +19,10 @@ function s:RunGrep(grep_args)
         let grep_cmd = l:grep_cmd . ' --exclude-dir=' . g:grep_exclude_dirs
     endif
     let grep_cmd = l:grep_cmd . ' ' . a:grep_args
-    let last_arg = split(a:grep_args)[-1]
-    if !exists(expand(l:last_arg))
-        let grep_cmd = l:grep_cmd . ' .'
-    endif
+    " let last_arg = split(a:grep_args)[-1]
+    " if !exists(glob(l:last_arg))
+    "     let grep_cmd = l:grep_cmd . ' .'
+    " endif
     echom l:grep_cmd
     silent execute l:grep_cmd
     redraw
