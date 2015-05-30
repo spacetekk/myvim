@@ -18,6 +18,7 @@ function s:RunGrep(grep_args)
     if filereadable(glob(g:grep_exclude_dirs))
         let grep_cmd = l:grep_cmd . ' --exclude-dirs=' . g:grep_exclude_dirs
     endif
+    
     let grep_cmd = l:grep_cmd . ' ' . a:grep_args
     silent execute l:grep_cmd
     redraw

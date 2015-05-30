@@ -5,6 +5,13 @@ snippet fun
 		${0}
 	end;
 	$$ language plpgsql;
+snippet funjson
+	create or replace function ${1:func_name} (p_request json) returns json as $$
+	declare
+		v_result text := '{}';
+	begin
+		return v_result::json;
+	$$ language plpgsql;
 snippet do
 	do $$
 	${4:declare}
@@ -18,6 +25,12 @@ snippet funsql
 	end;
 	$$ language sql;
 snippet dropfun
-	drop function if exists ${1:function} (
-		${2:arguments}
-	);
+	drop function if exists ${1:function} (${2:arguments});
+snippet exe
+	execute '${1:select 1}';
+snippet exeu
+	execute '${1:select $1}' using ${2:var};
+snippet exei
+	execute '${1:select $1}' into ${2:var};
+snippet exeui
+	execute '${1:select $1}' using ${2:using_var} into ${3:into_var};
