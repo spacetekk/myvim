@@ -15,11 +15,15 @@ function s:RunGrep(grep_args)
     if filereadable(l:grep_exclude)
         let grep_cmd = l:grep_cmd . ' --exclude-from=' . l:grep_exclude
     endif
-    if filereadable(glob(g:grep_exclude_dirs))
-        let grep_cmd = l:grep_cmd . ' --exclude-dirs=' . g:grep_exclude_dirs
+    if g:grep_exclude_dirs
+        let grep_cmd = l:grep_cmd . ' --exclude-dir=' . g:grep_exclude_dirs
     endif
-    
     let grep_cmd = l:grep_cmd . ' ' . a:grep_args
+    let last_arg = split(a:grep_args)[-1]
+    if !exists(expand(l:last_arg))
+        let grep_cmd = l:grep_cmd . ' .'
+    endif
+    echom l:grep_cmd
     silent execute l:grep_cmd
     redraw
     copen
