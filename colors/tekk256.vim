@@ -80,8 +80,10 @@ hi Identifier	ctermfg=192		cterm=none		guifg=#cae982	gui=none
 hi Type			ctermfg=155		cterm=none		guifg=#d4d987	gui=none
 hi Special		ctermfg=174		cterm=none		guifg=#eadead	gui=none
 hi String		ctermfg=228		cterm=none		guifg=#95e454	gui=italic
+
 hi Comment		ctermfg=244		cterm=none		guifg=#9c998e	gui=italic
 hi Todo			ctermfg=101		cterm=none		guifg=#857b6f	gui=italic
+hi Define       ctermfg=3     cterm=italic		guifg=#cae982	gui=none
 
 
 " Links
