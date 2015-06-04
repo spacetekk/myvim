@@ -46,7 +46,8 @@ hi Type         ctermfg=108  cterm=none
 hi Builtin      ctermfg=108  cterm=none
 hi Identifier   ctermfg=150  cterm=none
 
-"hi Constant     ctermfg=173        cterm=none
+"hi Identifier   ctermfg=192        cterm=none
+hi Constant     ctermfg=1    cterm=none
 "hi Keyword      ctermfg=111        cterm=none
 
 " Diff highlighting
