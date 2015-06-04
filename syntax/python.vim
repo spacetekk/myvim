@@ -365,7 +365,7 @@ if version >= 508 || !exists("did_python_syn_inits")
   HiLink pythonBinError		Error
 
   HiLink pythonBuiltinObj	Structure
-  HiLink pythonBuiltinFunc	Function
+  HiLink pythonBuiltinFunc	Builtin
 
   HiLink pythonExClass	Structure
 
