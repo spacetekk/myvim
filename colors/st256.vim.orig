@@ -17,7 +17,7 @@ let colors_name = "st256"
 hi Normal       ctermfg=7    ctermbg=none    cterm=none
 hi CursorLine                ctermbg=234     cterm=none
 hi Visual       ctermfg=0    ctermbg=151     cterm=none
-hi VisualNOS    ctermfg=0    ctermbg=152     cterm=none
+hi VisualNOS    ctermfg=0    ctermbg=151     cterm=none
 hi StatusLine	ctermfg=255    ctermbg=0     cterm=none
 hi Folded       ctermfg=243  ctermbg=none    cterm=none
 hi VertSplit    ctermfg=232  ctermbg=232     cterm=none
@@ -46,10 +46,18 @@ hi Type         ctermfg=108  cterm=none
 hi Builtin      ctermfg=108  cterm=none
 hi Identifier   ctermfg=150  cterm=none
 
-hi Constant     ctermfg=1    cterm=none
-hi Directory    ctermfg=12   cterm=none     cterm=none
-" hi Keyword      ctermfg=111        cterm=none
-" hi Identifier   ctermfg=192        cterm=none
+<<<<<<< HEAD
+"hi Constant     ctermfg=173        cterm=none
+||||||| merged common ancestors
+"hi Constant     ctermfg=173        cterm=none
+"hi Identifier   ctermfg=192        cterm=none
+
+=======
+hi Constant     ctermfg=1        cterm=none
+"hi Identifier   ctermfg=192        cterm=none
+
+>>>>>>> 1e61f3d9fa0f60e941828e4c2d21b01c781701cb
+"hi Keyword      ctermfg=111        cterm=none
 
 " Diff highlighting
 hi DiffAdd                   ctermbg=103
@@ -67,6 +75,7 @@ hi! link NonText         LineNr
 " hi TabLineSel   ctermfg=232    ctermbg=DarkGrey cterm=none
 
 "hi CursorIM
+"hi Directory
 "hi IncSearch
 "hi Menu
 "hi ModeMsg
@@ -75,8 +84,8 @@ hi! link NonText         LineNr
 "hi PmenuThumb
 "hi Question
 "hi Scrollbar
-"hi SpecialKey   ctermfg=185  ctermbg=italic    cterm=bold
-"hi SpellBad     ctermfg=196  ctermbg=236       cterm=none
+" hi SpecialKey   ctermfg=185  ctermbg=italic    cterm=bold
+" hi SpellBad        ctermfg=196        ctermbg=236        cterm=none
 "hi SpellCap
 "hi SpellLocal
 "hi SpellRare
