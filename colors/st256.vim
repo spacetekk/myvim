@@ -40,7 +40,7 @@ hi Statement    ctermfg=103  cterm=bold
 hi Comment      ctermfg=236  cterm=none
 hi PreProc      ctermfg=236  cterm=none
 
-hi Type         ctermfg=108  cterm=none
+hi Type         ctermfg=108  cterm=bold
 hi Builtin      ctermfg=108  cterm=none
 
 "hi Constant     ctermfg=173        cterm=none
