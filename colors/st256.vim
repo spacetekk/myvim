@@ -18,6 +18,7 @@ hi Normal       ctermfg=7    ctermbg=none    cterm=none
 hi CursorLine                ctermbg=234     cterm=none
 hi Visual       ctermfg=0    ctermbg=151     cterm=none
 hi VisualNOS    ctermfg=0    ctermbg=151     cterm=none
+hi StatusLine	ctermfg=255    ctermbg=0     cterm=none
 hi Folded       ctermfg=243  ctermbg=none    cterm=none
 hi VertSplit    ctermfg=232  ctermbg=232     cterm=none
 hi LineNr       ctermfg=243  ctermbg=none    cterm=none
@@ -25,6 +26,7 @@ hi Search       ctermfg=0    ctermbg=185     cterm=bold
 hi MatchParen   ctermfg=0    ctermbg=185     cterm=none
 hi Pmenu        ctermfg=230  ctermbg=238
 hi PmenuSel     ctermfg=232  ctermbg=151
+hi WildMenu     ctermfg=232  ctermbg=151
 hi SignColumn   ctermfg=none ctermbg=none    cterm=none
 hi WarningMsg   ctermfg=0    ctermfg=185                                   
 hi ErrorMsg     ctermfg=0    ctermbg=167     cterm=none
@@ -37,8 +39,8 @@ hi Define       ctermfg=3    cterm=none
 hi Function     ctermfg=139  cterm=none
 hi Statement    ctermfg=103  cterm=bold
 
-hi Comment      ctermfg=236  cterm=none
-hi PreProc      ctermfg=236  cterm=none
+hi Comment      ctermfg=238  cterm=none
+hi PreProc      ctermfg=243  cterm=bold
 
 hi Type         ctermfg=108  cterm=bold
 hi Builtin      ctermfg=108  cterm=none

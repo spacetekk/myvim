@@ -40,7 +40,7 @@ syn keyword pgsqlKeyword	 language lock local limit left load loop
 syn keyword pgsqlKeyword	 max min move match
 syn keyword pgsqlKeyword	 notify no new null next notnull notice
 syn keyword pgsqlKeyword	 or operator outer order old on out open
-syn keyword pgsqlKeyword	 prepare plpgsql primary password primary privilege procedure partial prepared
+syn keyword pgsqlKeyword	 prepare plpgsql plpython plpythonu primary password primary privilege procedure partial prepared
 syn keyword pgsqlKeyword	 partition preserve perform
 syn keyword pgsqlKeyword	 query
 syn keyword pgsqlKeyword	 role replace reindex release reset revoke rollback references row rows rule restrict
