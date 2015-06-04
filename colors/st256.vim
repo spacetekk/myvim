@@ -22,7 +22,7 @@ hi StatusLine	ctermfg=255    ctermbg=0     cterm=none
 hi Folded       ctermfg=243  ctermbg=none    cterm=none
 hi VertSplit    ctermfg=232  ctermbg=232     cterm=none
 hi LineNr       ctermfg=243  ctermbg=none    cterm=none
-hi Search       ctermfg=0    ctermbg=185     cterm=bold
+hi Search       ctermfg=0    ctermbg=185     cterm=none
 hi MatchParen   ctermfg=0    ctermbg=185     cterm=none
 hi Pmenu        ctermfg=230  ctermbg=238
 hi PmenuSel     ctermfg=232  ctermbg=151
@@ -37,12 +37,12 @@ hi String       ctermfg=144  cterm=none
 
 hi Define       ctermfg=3    cterm=none
 hi Function     ctermfg=139  cterm=none
-hi Statement    ctermfg=103  cterm=bold
+hi Statement    ctermfg=103  cterm=none
 
 hi Comment      ctermfg=238  cterm=none
-hi PreProc      ctermfg=243  cterm=bold
+hi PreProc      ctermfg=243  cterm=none
 
-hi Type         ctermfg=108  cterm=bold
+hi Type         ctermfg=108  cterm=none
 hi Builtin      ctermfg=108  cterm=none
 
 "hi Constant     ctermfg=173        cterm=none
