@@ -44,17 +44,16 @@ hi PreProc      ctermfg=243  cterm=none
 
 hi Type         ctermfg=108  cterm=none
 hi Builtin      ctermfg=108  cterm=none
+hi Identifier   ctermfg=150  cterm=none
 
 "hi Constant     ctermfg=173        cterm=none
-"hi Identifier   ctermfg=192        cterm=none
-
 "hi Keyword      ctermfg=111        cterm=none
 
 " Diff highlighting
-hi DiffAdd                   ctermbg=17
-hi DiffDelete    ctermfg=234 ctermbg=60        cterm=none
-hi DiffText                  ctermbg=53        cterm=none
-hi DiffChange                ctermbg=237
+hi DiffAdd                   ctermbg=103
+" hi DiffDelete    ctermfg=234 ctermbg=60        cterm=none
+hi DiffText                  ctermbg=173        cterm=none
+hi DiffChange                ctermbg=234
 
 " Links
 hi! link FoldColumn      Folded
