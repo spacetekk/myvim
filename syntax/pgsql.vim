@@ -80,7 +80,7 @@ syn keyword pgsqlType		 array anyarray anyelement abstime anyenum
 syn keyword pgsqlType		 anynonarray any aclitem bytea bit
 syn keyword pgsqlType		 boolean bigint bigserial box cidr
 syn keyword pgsqlType		 cstring char character cid circle
-syn keyword pgsqlType		 double date gtsvector inet interval
+syn keyword pgsqlType		 double date enum hstore gtsvector inet interval
 syn keyword pgsqlType		 internal int2vector integer json jsonb
 syn keyword pgsqlType		 line lseg language_handler macaddr
 syn keyword pgsqlType		 money numeric name opaque oidvector
