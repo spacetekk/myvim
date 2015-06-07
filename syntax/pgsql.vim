@@ -44,6 +44,7 @@ syn keyword pgsqlKeyword current_default_transform_group current_path
 syn keyword pgsqlKeyword current_transform_group_for_type
 syn keyword pgsqlKeyword cursor cursor_name cycle
 
+<<<<<<< HEAD
 syn keyword pgsqlKeyword data database datalink datetime_interval_code day db deallocate
 syn keyword pgsqlKeyword datetime_interval_precision dec declare default defaults
 syn keyword pgsqlKeyword deferrable deferred defined definer degree delete delimiter delimiters
@@ -53,6 +54,69 @@ syn keyword pgsqlKeyword dlnewcopy dlpreviouscopy dlurlcomplete dlurlcompleteonl
 syn keyword pgsqlKeyword dlurlcompletewrite dlurlpathonly dlurlpathwrite dlurlscheme dlvalue
 syn keyword pgsqlKeyword do dlurlserver document domain drop dynamic dynamic_function
 syn keyword pgsqlKeyword dynamic_function_code
+||||||| merged common ancestors
+" General keywords which don't fall into other categories
+syn keyword pgsqlKeyword	 abort alter aggregate analyze and as alias add
+syn keyword pgsqlKeyword	 begin by before
+syn keyword pgsqlKeyword	 conversion cascade current_date current_time current_timestamp class close continue
+syn keyword pgsqlKeyword	 cluster checkpoint check comment
+syn keyword pgsqlKeyword	 cast cascade character check column columns constraint create copy
+syn keyword pgsqlKeyword	 database domain databases default delete distinct drop declare deallocate desc
+syn keyword pgsqlKeyword	 deferrable deferred defaults do diagnostics
+syn keyword pgsqlKeyword	 explain end exists execute exclusion found exception except each exit
+syn keyword pgsqlKeyword	 function foreign from full fetch force for foreach
+syn keyword pgsqlKeyword	 group grant global get
+syn keyword pgsqlKeyword	 having 
+syn keyword pgsqlKeyword	 index into immutable inner initially immediate inherits instead insert in if
+syn keyword pgsqlKeyword	 isnull
+syn keyword pgsqlKeyword	 join
+syn keyword pgsqlKeyword	 key 
+syn keyword pgsqlKeyword	 language lock local limit left load loop
+syn keyword pgsqlKeyword	 max min move match
+syn keyword pgsqlKeyword	 notify no new null next notnull notice
+syn keyword pgsqlKeyword	 or operator outer order old on out open
+syn keyword pgsqlKeyword	 prepare plpgsql plpython plpythonu primary password primary privilege procedure partial prepared
+syn keyword pgsqlKeyword	 partition preserve perform
+syn keyword pgsqlKeyword	 query
+syn keyword pgsqlKeyword	 role replace reindex release reset revoke rollback references row rows rule restrict
+syn keyword pgsqlKeyword	 returns returning return raise
+syn keyword pgsqlKeyword	 select set strict schema sequence savepoint simple system stable setof scroll
+syn keyword pgsqlKeyword	 truncate to tranaction trigger table tables temp temporary tablespace type
+syn keyword pgsqlKeyword	 update unique unlisten using union
+syn keyword pgsqlKeyword	 verbose view values varying vacuum
+syn keyword pgsqlKeyword	 where with warning
+=======
+" General keywords which don't fall into other categories
+syn keyword pgsqlKeyword	 abort alter aggregate analyze and as alias add
+syn keyword pgsqlKeyword	 begin by before
+syn keyword pgsqlKeyword	 conversion cascade current_date current_time current_timestamp class close continue
+syn keyword pgsqlKeyword	 cluster checkpoint check comment
+syn keyword pgsqlKeyword	 cast cascade character check column columns constraint create copy
+syn keyword pgsqlKeyword	 database domain databases default delete distinct drop declare deallocate desc
+syn keyword pgsqlKeyword	 deferrable deferred defaults do diagnostics
+syn keyword pgsqlKeyword	 explain end exists execute exclusion found exception except each exit
+syn keyword pgsqlKeyword	 function foreign from full fetch force for foreach
+syn keyword pgsqlKeyword	 group grant global get
+syn keyword pgsqlKeyword	 having 
+syn keyword pgsqlKeyword	 index into immutable inner initially immediate inherits instead insert in if
+syn keyword pgsqlKeyword	 isnull
+syn keyword pgsqlKeyword	 join
+syn keyword pgsqlKeyword	 key 
+syn keyword pgsqlKeyword	 language lock local limit left load loop
+syn keyword pgsqlKeyword	 max min move match
+syn keyword pgsqlKeyword	 notify no new null next notnull notice
+syn keyword pgsqlKeyword	 or operator outer order old on out open
+syn keyword pgsqlKeyword	 prepare plpgsql plpython plpythonu primary password primary privilege procedure partial prepared
+syn keyword pgsqlKeyword	 partition preserve perform
+syn keyword pgsqlKeyword	 query
+syn keyword pgsqlKeyword	 role replace reindex release reset revoke rollback references row rows rule restrict
+syn keyword pgsqlKeyword	 returns returning return raise
+syn keyword pgsqlKeyword	 select set strict schema sequence savepoint simple sql system stable setof scroll
+syn keyword pgsqlKeyword	 truncate to tranaction trigger table tables temp temporary tablespace type
+syn keyword pgsqlKeyword	 update unique unlisten using union
+syn keyword pgsqlKeyword	 verbose view values varying vacuum
+syn keyword pgsqlKeyword	 where with warning
+>>>>>>> 8cd31623cf7553c498091b811b104400aec4c0e1
 
 syn keyword pgsqlKeyword each element else empty enable encoding encrypted end end end_frame
 syn keyword pgsqlKeyword end_partition enforced equals escape event except exception
