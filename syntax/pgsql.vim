@@ -45,7 +45,7 @@ syn keyword pgsqlKeyword	 partition preserve perform
 syn keyword pgsqlKeyword	 query
 syn keyword pgsqlKeyword	 role replace reindex release reset revoke rollback references row rows rule restrict
 syn keyword pgsqlKeyword	 returns returning return raise
-syn keyword pgsqlKeyword	 select set strict schema sequence savepoint simple system stable setof scroll
+syn keyword pgsqlKeyword	 select set strict schema sequence savepoint simple sql system stable setof scroll
 syn keyword pgsqlKeyword	 truncate to tranaction trigger table tables temp temporary tablespace type
 syn keyword pgsqlKeyword	 update unique unlisten using union
 syn keyword pgsqlKeyword	 verbose view values varying vacuum
