@@ -42,7 +42,7 @@ hi Statement    ctermfg=103  cterm=none
 hi Comment      ctermfg=238  cterm=none
 hi PreProc      ctermfg=243  cterm=none
 
-hi Type         ctermfg=108  cterm=none
+hi Type         ctermfg=179  cterm=none
 hi Builtin      ctermfg=108  cterm=none
 hi Identifier   ctermfg=150  cterm=none
 
