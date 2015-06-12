@@ -323,8 +323,8 @@ if version >= 508 || !exists("did_python_syn_inits")
   HiLink pythonException	Exception
   HiLink pythonOperator		Operator
 
-  HiLink pythonDecorator	Define
-  HiLink pythonDottedName	Define
+  HiLink pythonDecorator	PreProc
+  HiLink pythonDottedName	PreProc
   HiLink pythonDot          Normal
 
   HiLink pythonComment		Comment
