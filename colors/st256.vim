@@ -34,8 +34,11 @@ hi! link Pmenu        MenuGroup
 hi! link StatusLine	  MenuGroup
 hi! link TabLineSel   MenuGroup
 
-hi! link  ErrorMsg    ErrorGroup
+hi! link Error        ErrorGroup
+hi! link ErrorMsg     ErrorGroup
+hi! link SpellBad     ErrorGroup
  
+hi! link SpellCap     WarningGroup
 hi! link WarningMsg   WarningGroup
 hi! link MoreMsg      WarningGroup
 hi! link Search       WarningGroup
@@ -43,6 +46,7 @@ hi! link IncSearch    WarningGroup
 hi! link MatchParen   WarningGroup
 hi! link Question     WarningGroup
 hi! link SpecialKey   WarningGroup
+hi! link Todo         WarningGroup
 
 hi! link Visual       SelectGroup
 hi! link PmenuSel     SelectGroup
@@ -61,6 +65,9 @@ hi! link SignColumn   BlankGroup
 hi! link VertSplit    BlankGroup
 hi! link NonText      BlankGroup
 hi! link TabLineFill  BlankGroup
+
+" Syntasic
+" hi! link SyntasticErrorSymbol ErrorGroup
 " }}}
 
 
