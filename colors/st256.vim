@@ -70,7 +70,6 @@ hi! link TabLineFill  BlankGroup
 " hi! link SyntasticErrorSymbol ErrorGroup
 " }}}
 
-
 " Syntax Highlights: {{{
 hi Number       ctermfg=186               cterm=none
 hi Special      ctermfg=109               cterm=none
@@ -85,6 +84,7 @@ hi Builtin      ctermfg=108               cterm=none
 hi Identifier   ctermfg=150               cterm=none
 hi Constant     ctermfg=95                cterm=none
 hi Directory    ctermfg=12                cterm=none
+hi Operator     ctermfg=239               cterm=none
 " hi Keyword
 " hi Identifier
 " }}}
