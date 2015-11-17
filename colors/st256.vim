@@ -13,11 +13,10 @@ endif
 
 let colors_name = 'st256'
 
-" Colors: {{{
+" Colors: {{{1
 hi CursorLine                ctermbg=233  cterm=none
-" }}}
 
-" Groups: {{{
+" Groups: {{{1
 hi TextGroup    ctermfg=250  ctermbg=none cterm=none
 hi MenuGroup    ctermfg=250  ctermbg=235  cterm=none
 hi SelectGroup  ctermfg=16   ctermbg=151  cterm=none
@@ -25,9 +24,9 @@ hi WarningGroup ctermfg=16   ctermbg=185  cterm=none
 hi ErrorGroup   ctermfg=16   ctermbg=167  cterm=none
 hi BlankGroup   ctermfg=16   ctermbg=16   cterm=none
 hi DarkenGroup  ctermfg=235  ctermbg=232  cterm=none
-" }}}
+hi FoldGroup    ctermfg=102  ctermbg=232  cterm=none
 
-" Links: {{{
+" Links: {{{1
 hi! link Normal       TextGroup
 
 hi! link Pmenu        MenuGroup
@@ -52,7 +51,8 @@ hi! link Visual       SelectGroup
 hi! link PmenuSel     SelectGroup
 hi! link WildMenu     SelectGroup
 
-hi! link Folded       DarkenGroup
+hi! link Folded       FoldGroup
+
 hi! link LineNr       DarkenGroup
 hi! link FoldColumn   DarkenGroup
 hi! link StatusLineNC DarkenGroup
@@ -68,9 +68,8 @@ hi! link TabLineFill  BlankGroup
 
 " Syntasic
 " hi! link SyntasticErrorSymbol ErrorGroup
-" }}}
 
-" Syntax Highlights: {{{
+" Syntax Highlights: {{{1
 hi Number       ctermfg=186               cterm=none
 hi Special      ctermfg=109               cterm=none
 hi String       ctermfg=144               cterm=none
@@ -87,22 +86,19 @@ hi Directory    ctermfg=12                cterm=none
 hi Operator     ctermfg=239               cterm=none
 " hi Keyword
 " hi Identifier
-" }}}
 
-" Diff: {{{
+" Diff: {{{1
 hi DiffAdd                   ctermbg=60   cterm=none
 hi DiffText                  ctermbg=131  cterm=none
 hi DiffChange                ctermbg=234  cterm=none
 hi DiffDelete                ctermbg=167  cterm=none
-" }}}
 
-" Unused: {{{
+" Unused: {{{1
 " hi SpellBad
 " hi SpellCap
 " hi SpellLocal
 " hi SpellRare
 " hi User1
 " hi User9
-" }}}
 
 " vim:set ts=4 sw=4 noet:
