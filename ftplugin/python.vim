@@ -7,7 +7,7 @@ let s:save_cpo = &cpo
 set cpo-=C
 
 " Text Width:
-setlocal textwidth=80
+setlocal textwidth=79
 
 " Remove Trailing Spaces:
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
